@@ -188,7 +188,6 @@ proxy-groups:
       - 🇦🇷 阿根廷 IEPL [02] [Air]
       - 🇰🇷 韩国 AC [01]
       - 🇰🇷 韩国 AC [02]
-      - 🇰🇷 韩国 Edge
       - 🇰🇷 韩国 IEPL [01] [Air]
       - 🇰🇷 韩国 IEPL [02] [Air]
       - 🇭🇰 香港 AC [01]
@@ -290,7 +289,6 @@ proxy-groups:
       - 🇦🇷 阿根廷 IEPL [02] [Air]
       - 🇰🇷 韩国 AC [01]
       - 🇰🇷 韩国 AC [02]
-      - 🇰🇷 韩国 Edge
       - 🇰🇷 韩国 IEPL [01] [Air]
       - 🇰🇷 韩国 IEPL [02] [Air]
       - 🇭🇰 香港 AC [01]
@@ -578,7 +576,6 @@ proxy-groups:
     proxies:
       - 🇰🇷 韩国 AC [01]
       - 🇰🇷 韩国 AC [02]
-      - 🇰🇷 韩国 Edge
       - 🇰🇷 韩国 IEPL [01] [Air]
       - 🇰🇷 韩国 IEPL [02] [Air]
   - name: 🇺🇲 美国节点
