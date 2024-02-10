@@ -1,0 +1,159 @@
+[General]
+loglevel = notify
+bypass-system = true
+skip-proxy = 127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,100.64.0.0/10,localhost,*.local,e.crashlytics.com,captive.apple.com,::ffff:0:0:0:0/1,::ffff:128:0:0:0/1
+#DNS设置或根据自己网络情况进行相应设置
+bypass-tun = 192.168.0.0/16,10.0.0.0/8,172.16.0.0/12
+dns-server = 119.29.29.29,223.5.5.5
+
+[Script]
+http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
+
+[Proxy]
+DIRECT = direct
+🇷🇺 俄罗斯 Edge = trojan, ru1.qiangdong.xyz, 443, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇷🇺 俄罗斯 IEPL [01] [Air] = trojan, 183.240.187.162, 268, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇷🇺 俄罗斯 IEPL [02] [Air] = trojan, 183.240.187.163, 268, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇨🇦 加拿大 Edge = trojan, ca1.qiangdong.xyz, 443, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇨🇦 加拿大 IEPL [01] [Air] = trojan, 183.240.187.162, 368, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇨🇦 加拿大 IEPL [02] [Air] = trojan, 183.240.187.163, 368, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇮🇳 印度 Edge = trojan, in1.qiangdong.xyz, 443, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇮🇳 印度 IEPL [01] [Air] = trojan, 183.240.187.162, 468, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇮🇳 印度 IEPL [02] [Air] = trojan, 183.240.187.163, 468, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇨🇳 台湾 CHT [01] = trojan, cht1.qiangdong.xyz, 443, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇨🇳 台湾 CHT [02] = trojan, cht2.qiangdong.xyz, 443, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇨🇳 台湾 CHT [03] = trojan, cht3.qiangdong.xyz, 443, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇨🇳 台湾 Edge = trojan, tw1.qiangdong.xyz, 443, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇨🇳 台湾 IEPL [01] [Air] = trojan, 183.240.187.162, 258, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇨🇳 台湾 IEPL [02] [Air] = trojan, 183.240.187.163, 258, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇨🇳 台湾 IEPL [03] [Std] = trojan, 183.240.187.174, 158, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇨🇳 台湾 IEPL [04] [Premium] = trojan, 183.240.187.175, 158, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇹🇷 土耳其 Edge = trojan, tr1.qiangdong.xyz, 443, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇹🇷 土耳其 IEPL [01] [Air] = trojan, 183.240.187.162, 568, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇹🇷 土耳其 IEPL [02] [Air] = trojan, 183.240.187.163, 568, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇧🇷 巴西 Edge = trojan, br1.qiangdong.xyz, 443, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇧🇷 巴西 IEPL [01] [Air] = trojan, 183.240.187.162, 668, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇧🇷 巴西 IEPL [02] [Air] = trojan, 183.240.187.163, 668, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇩🇪 德国 Edge = trojan, de1.qiangdong.xyz, 443, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇩🇪 德国 IEPL [01] [Air] = trojan, 183.240.187.162, 758, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇩🇪 德国 IEPL [02] [Air] = trojan, 183.240.187.163, 758, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇸🇬 新加坡 Edge [01] = trojan, sg1.qiangdong.xyz, 443, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇸🇬 新加坡 Edge [02] = trojan, sg2.qiangdong.xyz, 443, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇸🇬 新加坡 IEPL [01] [Air] = trojan, 183.240.187.162, 358, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇸🇬 新加坡 IEPL [02] [Air] = trojan, 183.240.187.163, 358, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇸🇬 新加坡 IEPL [03] [Std] = trojan, 183.240.187.172, 158, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇸🇬 新加坡 IEPL [04] [Premium] = trojan, 183.240.187.173, 158, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇯🇵 日本 Edge [01] = trojan, jp1.qiangdong.xyz, 443, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇯🇵 日本 Edge [02] = trojan, jp2.qiangdong.xyz, 443, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇯🇵 日本 Edge [03] = trojan, jp3.qiangdong.xyz, 443, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇯🇵 日本 IEPL [01] [Air] = trojan, 183.240.187.162, 458, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇯🇵 日本 IEPL [02] [Air] = trojan, 183.240.187.163, 458, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇯🇵 日本 IEPL [03] [Premium] = trojan, 183.134.21.41, 8443, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇫🇷 法国 Edge = trojan, fr1.qiangdong.xyz, 443, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇫🇷 法国 IEPL [01] [Air] = trojan, 183.240.187.162, 768, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇫🇷 法国 IEPL [02] [Air] = trojan, 183.240.187.163, 768, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇹🇭 泰国 Edge = trojan, th1.qiangdong.xyz, 443, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇹🇭 泰国 IEPL [01] [Air] = trojan, 183.240.187.162, 868, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇹🇭 泰国 IEPL [02] [Air] = trojan, 183.240.187.163, 868, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇦🇺 澳大利亚 Edge = trojan, au1.qiangdong.xyz, 443, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇦🇺 澳大利亚 IEPL [01] [Air] = trojan, 183.240.187.162, 278, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇦🇺 澳大利亚 IEPL [02] [Air] = trojan, 183.240.187.163, 278, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇺🇸 美国 DMIT [01] = trojan, dmit_us1.qiangdong.xyz, 443, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇺🇸 美国 DMIT [02] = trojan, dmit_us2.qiangdong.xyz, 443, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇺🇸 美国 Edge = trojan, us1.qiangdong.xyz, 443, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇺🇸 美国 IEPL [01] [Air] = trojan, 183.240.187.162, 658, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇺🇸 美国 IEPL [02] [Air] = trojan, 183.240.187.163, 658, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇬🇧 英国 Edge [01] = trojan, uk1.qiangdong.xyz, 443, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇬🇧 英国 Edge [02] = trojan, uk2.qiangdong.xyz, 443, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇬🇧 英国 IEPL [01] [Air] = trojan, 183.240.187.162, 858, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇬🇧 英国 IEPL [02] [Air] = trojan, 183.240.187.163, 858, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇵🇭 菲律宾 Edge = trojan, ph1.qiangdong.xyz, 443, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇵🇭 菲律宾 IEPL [01] [Air] = trojan, 183.240.187.162, 378, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇵🇭 菲律宾 IEPL [02] [Air] = trojan, 183.240.187.163, 378, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇦🇷 阿根廷 Edge = trojan, ar1.qiangdong.xyz, 443, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇦🇷 阿根廷 IEPL [01] [Air] = trojan, 183.240.187.162, 478, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇦🇷 阿根廷 IEPL [02] [Air] = trojan, 183.240.187.163, 478, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇰🇷 韩国 Edge = trojan, kr1.qiangdong.xyz, 443, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇰🇷 韩国 IEPL [01] [Air] = trojan, 183.240.187.162, 558, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇰🇷 韩国 IEPL [02] [Air] = trojan, 183.240.187.163, 558, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇭🇰 香港 Edge [01] = trojan, hk1.qiangdong.xyz, 443, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇭🇰 香港 Edge [02] = trojan, hk2.qiangdong.xyz, 443, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇭🇰 香港 Edge [03] = trojan, hk3.qiangdong.xyz, 443, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇭🇰 香港 Edge [04] = trojan, hk4.qiangdong.xyz, 443, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇭🇰 香港 HKT [01] = trojan, hkt1.qiangdong.xyz, 443, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇭🇰 香港 HKT [02] = trojan, hkt2.qiangdong.xyz, 443, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇭🇰 香港 HKT [03] = trojan, hkt3.qiangdong.xyz, 443, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇭🇰 香港 HKT [04] = trojan, hkt4.qiangdong.xyz, 443, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇭🇰 香港 HKT [05] = trojan, hkt5.qiangdong.xyz, 443, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇭🇰 香港 HKT [07] = trojan, hkt7.qiangdong.xyz, 443, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇭🇰 香港 HKT [08] = trojan, hkt8.qiangdong.xyz, 443, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇭🇰 香港 IEPL [01] [Air] = trojan, 183.240.187.162, 158, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇭🇰 香港 IEPL [02] [Air] = trojan, 183.240.187.163, 158, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇭🇰 香港 IEPL [03] [Std] = trojan, 183.240.187.166, 158, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇭🇰 香港 IEPL [04] [Std] = trojan, 183.240.187.167, 158, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇭🇰 香港 IEPL [05] [Premium] = trojan, 183.240.187.170, 158, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+🇭🇰 香港 IEPL [06] [Premium] = trojan, 183.240.187.171, 158, password=63ff06632d7df4320b86a5d39c6250ed69979.wns.windows.com, skip-cert-verify=false, tfo=false, udp-relay=true
+
+[Proxy Group]
+🚀 Nexitally = select,♻️ 自动选择,🇭🇰 香港节点,🇨🇳 台湾节点,🇸🇬 狮城节点,🇯🇵 日本节点,🇰🇷 韩国节点,🇺🇲 美国节点,🌍 其他地区,🚀 手动切换,DIRECT
+🚀 手动切换 = select,🇷🇺 俄罗斯 Edge,🇷🇺 俄罗斯 IEPL [01] [Air],🇷🇺 俄罗斯 IEPL [02] [Air],🇨🇦 加拿大 Edge,🇨🇦 加拿大 IEPL [01] [Air],🇨🇦 加拿大 IEPL [02] [Air],🇮🇳 印度 Edge,🇮🇳 印度 IEPL [01] [Air],🇮🇳 印度 IEPL [02] [Air],🇨🇳 台湾 CHT [01],🇨🇳 台湾 CHT [02],🇨🇳 台湾 CHT [03],🇨🇳 台湾 Edge,🇨🇳 台湾 IEPL [01] [Air],🇨🇳 台湾 IEPL [02] [Air],🇨🇳 台湾 IEPL [03] [Std],🇨🇳 台湾 IEPL [04] [Premium],🇹🇷 土耳其 Edge,🇹🇷 土耳其 IEPL [01] [Air],🇹🇷 土耳其 IEPL [02] [Air],🇧🇷 巴西 Edge,🇧🇷 巴西 IEPL [01] [Air],🇧🇷 巴西 IEPL [02] [Air],🇩🇪 德国 Edge,🇩🇪 德国 IEPL [01] [Air],🇩🇪 德国 IEPL [02] [Air],🇸🇬 新加坡 Edge [01],🇸🇬 新加坡 Edge [02],🇸🇬 新加坡 IEPL [01] [Air],🇸🇬 新加坡 IEPL [02] [Air],🇸🇬 新加坡 IEPL [03] [Std],🇸🇬 新加坡 IEPL [04] [Premium],🇯🇵 日本 Edge [01],🇯🇵 日本 Edge [02],🇯🇵 日本 Edge [03],🇯🇵 日本 IEPL [01] [Air],🇯🇵 日本 IEPL [02] [Air],🇯🇵 日本 IEPL [03] [Premium],🇫🇷 法国 Edge,🇫🇷 法国 IEPL [01] [Air],🇫🇷 法国 IEPL [02] [Air],🇹🇭 泰国 Edge,🇹🇭 泰国 IEPL [01] [Air],🇹🇭 泰国 IEPL [02] [Air],🇦🇺 澳大利亚 Edge,🇦🇺 澳大利亚 IEPL [01] [Air],🇦🇺 澳大利亚 IEPL [02] [Air],🇺🇸 美国 DMIT [01],🇺🇸 美国 DMIT [02],🇺🇸 美国 Edge,🇺🇸 美国 IEPL [01] [Air],🇺🇸 美国 IEPL [02] [Air],🇬🇧 英国 Edge [01],🇬🇧 英国 Edge [02],🇬🇧 英国 IEPL [01] [Air],🇬🇧 英国 IEPL [02] [Air],🇵🇭 菲律宾 Edge,🇵🇭 菲律宾 IEPL [01] [Air],🇵🇭 菲律宾 IEPL [02] [Air],🇦🇷 阿根廷 Edge,🇦🇷 阿根廷 IEPL [01] [Air],🇦🇷 阿根廷 IEPL [02] [Air],🇰🇷 韩国 Edge,🇰🇷 韩国 IEPL [01] [Air],🇰🇷 韩国 IEPL [02] [Air],🇭🇰 香港 Edge [01],🇭🇰 香港 Edge [02],🇭🇰 香港 Edge [03],🇭🇰 香港 Edge [04],🇭🇰 香港 HKT [01],🇭🇰 香港 HKT [02],🇭🇰 香港 HKT [03],🇭🇰 香港 HKT [04],🇭🇰 香港 HKT [05],🇭🇰 香港 HKT [07],🇭🇰 香港 HKT [08],🇭🇰 香港 IEPL [01] [Air],🇭🇰 香港 IEPL [02] [Air],🇭🇰 香港 IEPL [03] [Std],🇭🇰 香港 IEPL [04] [Std],🇭🇰 香港 IEPL [05] [Premium],🇭🇰 香港 IEPL [06] [Premium]
+♻️ 自动选择 = url-test,🇷🇺 俄罗斯 Edge,🇷🇺 俄罗斯 IEPL [01] [Air],🇷🇺 俄罗斯 IEPL [02] [Air],🇨🇦 加拿大 Edge,🇨🇦 加拿大 IEPL [01] [Air],🇨🇦 加拿大 IEPL [02] [Air],🇮🇳 印度 Edge,🇮🇳 印度 IEPL [01] [Air],🇮🇳 印度 IEPL [02] [Air],🇨🇳 台湾 CHT [01],🇨🇳 台湾 CHT [02],🇨🇳 台湾 CHT [03],🇨🇳 台湾 Edge,🇨🇳 台湾 IEPL [01] [Air],🇨🇳 台湾 IEPL [02] [Air],🇨🇳 台湾 IEPL [03] [Std],🇨🇳 台湾 IEPL [04] [Premium],🇹🇷 土耳其 Edge,🇹🇷 土耳其 IEPL [01] [Air],🇹🇷 土耳其 IEPL [02] [Air],🇧🇷 巴西 Edge,🇧🇷 巴西 IEPL [01] [Air],🇧🇷 巴西 IEPL [02] [Air],🇩🇪 德国 Edge,🇩🇪 德国 IEPL [01] [Air],🇩🇪 德国 IEPL [02] [Air],🇸🇬 新加坡 Edge [01],🇸🇬 新加坡 Edge [02],🇸🇬 新加坡 IEPL [01] [Air],🇸🇬 新加坡 IEPL [02] [Air],🇸🇬 新加坡 IEPL [03] [Std],🇸🇬 新加坡 IEPL [04] [Premium],🇯🇵 日本 Edge [01],🇯🇵 日本 Edge [02],🇯🇵 日本 Edge [03],🇯🇵 日本 IEPL [01] [Air],🇯🇵 日本 IEPL [02] [Air],🇯🇵 日本 IEPL [03] [Premium],🇫🇷 法国 Edge,🇫🇷 法国 IEPL [01] [Air],🇫🇷 法国 IEPL [02] [Air],🇹🇭 泰国 Edge,🇹🇭 泰国 IEPL [01] [Air],🇹🇭 泰国 IEPL [02] [Air],🇦🇺 澳大利亚 Edge,🇦🇺 澳大利亚 IEPL [01] [Air],🇦🇺 澳大利亚 IEPL [02] [Air],🇺🇸 美国 DMIT [01],🇺🇸 美国 DMIT [02],🇺🇸 美国 Edge,🇺🇸 美国 IEPL [01] [Air],🇺🇸 美国 IEPL [02] [Air],🇬🇧 英国 Edge [01],🇬🇧 英国 Edge [02],🇬🇧 英国 IEPL [01] [Air],🇬🇧 英国 IEPL [02] [Air],🇵🇭 菲律宾 Edge,🇵🇭 菲律宾 IEPL [01] [Air],🇵🇭 菲律宾 IEPL [02] [Air],🇦🇷 阿根廷 Edge,🇦🇷 阿根廷 IEPL [01] [Air],🇦🇷 阿根廷 IEPL [02] [Air],🇰🇷 韩国 Edge,🇰🇷 韩国 IEPL [01] [Air],🇰🇷 韩国 IEPL [02] [Air],🇭🇰 香港 Edge [01],🇭🇰 香港 Edge [02],🇭🇰 香港 Edge [03],🇭🇰 香港 Edge [04],🇭🇰 香港 HKT [01],🇭🇰 香港 HKT [02],🇭🇰 香港 HKT [03],🇭🇰 香港 HKT [04],🇭🇰 香港 HKT [05],🇭🇰 香港 HKT [07],🇭🇰 香港 HKT [08],🇭🇰 香港 IEPL [01] [Air],🇭🇰 香港 IEPL [02] [Air],🇭🇰 香港 IEPL [03] [Std],🇭🇰 香港 IEPL [04] [Std],🇭🇰 香港 IEPL [05] [Premium],🇭🇰 香港 IEPL [06] [Premium],url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
+📲 电报消息 = select,🚀 Nexitally,🇸🇬 狮城节点,🇭🇰 香港节点,🇨🇳 台湾节点,🇯🇵 日本节点,🇺🇲 美国节点,🇰🇷 韩国节点,🌍 其他地区,🚀 手动切换,DIRECT
+💬 OpenAi = select,🚀 Nexitally,♻️ 自动选择,🇸🇬 狮城节点,🇭🇰 香港节点,🇨🇳 台湾节点,🇯🇵 日本节点,🇺🇲 美国节点,🇰🇷 韩国节点,🚀 手动切换,DIRECT
+📹 油管视频 = select,🚀 Nexitally,🇸🇬 狮城节点,🇭🇰 香港节点,🇨🇳 台湾节点,🇯🇵 日本节点,🇺🇲 美国节点,🇰🇷 韩国节点,🌍 其他地区,🚀 手动切换,DIRECT
+🎥 奈飞视频 = select,🚀 Nexitally,🇸🇬 狮城节点,🇭🇰 香港节点,🇨🇳 台湾节点,🇯🇵 日本节点,🇺🇲 美国节点,🇰🇷 韩国节点,🌍 其他地区,🚀 手动切换,DIRECT
+📺 巴哈姆特 = select,🇨🇳 台湾节点,🚀 Nexitally,🚀 手动切换,DIRECT
+📺 哔哩哔哩 = select,🎯 全球直连,🇨🇳 台湾节点,🇭🇰 香港节点
+🌍 国外媒体 = select,🚀 Nexitally,🇭🇰 香港节点,🇨🇳 台湾节点,🇸🇬 狮城节点,🇯🇵 日本节点,🇺🇲 美国节点,🇰🇷 韩国节点,🌍 其他地区,🚀 手动切换,DIRECT
+🌏 国内媒体 = select,DIRECT,🚀 Nexitally,🇺🇲 美国节点,🇭🇰 香港节点,🇨🇳 台湾节点,🇸🇬 狮城节点,🇯🇵 日本节点,🇰🇷 韩国节点,🌍 其他地区,🚀 手动切换
+📢 谷歌FCM = select,DIRECT,🚀 Nexitally,🇺🇲 美国节点,🇭🇰 香港节点,🇨🇳 台湾节点,🇸🇬 狮城节点,🇯🇵 日本节点,🇰🇷 韩国节点,🌍 其他地区,🚀 手动切换
+Ⓜ️ 微软云盘 = select,DIRECT,🚀 Nexitally,🇺🇲 美国节点,🇭🇰 香港节点,🇨🇳 台湾节点,🇸🇬 狮城节点,🇯🇵 日本节点,🇰🇷 韩国节点,🌍 其他地区,🚀 手动切换
+Ⓜ️ 微软服务 = select,DIRECT,🚀 Nexitally,🇺🇲 美国节点,🇭🇰 香港节点,🇨🇳 台湾节点,🇸🇬 狮城节点,🇯🇵 日本节点,🇰🇷 韩国节点,🌍 其他地区,🚀 手动切换
+🍎 苹果服务 = select,DIRECT,🚀 Nexitally,🇺🇲 美国节点,🇭🇰 香港节点,🇨🇳 台湾节点,🇸🇬 狮城节点,🇯🇵 日本节点,🇰🇷 韩国节点,🌍 其他地区,🚀 手动切换
+🎮 游戏平台 = select,DIRECT,🚀 Nexitally,🇺🇲 美国节点,🇭🇰 香港节点,🇨🇳 台湾节点,🇸🇬 狮城节点,🇯🇵 日本节点,🇰🇷 韩国节点,🌍 其他地区,🚀 手动切换
+🎶 网易音乐 = select,DIRECT,🚀 Nexitally
+🎯 全球直连 = select,DIRECT,🚀 Nexitally
+🛑 广告拦截 = select,REJECT,DIRECT
+🍃 应用净化 = select,REJECT,DIRECT
+🐟 漏网之鱼 = select,🚀 Nexitally,DIRECT,🇭🇰 香港节点,🇨🇳 台湾节点,🇸🇬 狮城节点,🇯🇵 日本节点,🇺🇲 美国节点,🇰🇷 韩国节点,🌍 其他地区,🚀 手动切换
+🇭🇰 香港节点 = url-test,🇭🇰 香港 Edge [01],🇭🇰 香港 Edge [02],🇭🇰 香港 Edge [03],🇭🇰 香港 Edge [04],🇭🇰 香港 HKT [01],🇭🇰 香港 HKT [02],🇭🇰 香港 HKT [03],🇭🇰 香港 HKT [04],🇭🇰 香港 HKT [05],🇭🇰 香港 HKT [07],🇭🇰 香港 HKT [08],🇭🇰 香港 IEPL [01] [Air],🇭🇰 香港 IEPL [02] [Air],🇭🇰 香港 IEPL [03] [Std],🇭🇰 香港 IEPL [04] [Std],🇭🇰 香港 IEPL [05] [Premium],🇭🇰 香港 IEPL [06] [Premium],url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
+🇨🇳 台湾节点 = url-test,🇨🇳 台湾 CHT [01],🇨🇳 台湾 CHT [02],🇨🇳 台湾 CHT [03],🇨🇳 台湾 Edge,🇨🇳 台湾 IEPL [01] [Air],🇨🇳 台湾 IEPL [02] [Air],🇨🇳 台湾 IEPL [03] [Std],🇨🇳 台湾 IEPL [04] [Premium],url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
+🇸🇬 狮城节点 = url-test,🇸🇬 新加坡 Edge [01],🇸🇬 新加坡 Edge [02],🇸🇬 新加坡 IEPL [01] [Air],🇸🇬 新加坡 IEPL [02] [Air],🇸🇬 新加坡 IEPL [03] [Std],🇸🇬 新加坡 IEPL [04] [Premium],url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
+🇯🇵 日本节点 = url-test,🇯🇵 日本 Edge [01],🇯🇵 日本 Edge [02],🇯🇵 日本 Edge [03],🇯🇵 日本 IEPL [01] [Air],🇯🇵 日本 IEPL [02] [Air],🇯🇵 日本 IEPL [03] [Premium],url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
+🇰🇷 韩国节点 = url-test,🇰🇷 韩国 Edge,🇰🇷 韩国 IEPL [01] [Air],🇰🇷 韩国 IEPL [02] [Air],url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
+🇺🇲 美国节点 = url-test,🇺🇸 美国 DMIT [01],🇺🇸 美国 DMIT [02],🇺🇸 美国 Edge,🇺🇸 美国 IEPL [01] [Air],🇺🇸 美国 IEPL [02] [Air],url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
+🌍 其他地区 = url-test,🇷🇺 俄罗斯 Edge,🇷🇺 俄罗斯 IEPL [01] [Air],🇷🇺 俄罗斯 IEPL [02] [Air],🇨🇦 加拿大 Edge,🇨🇦 加拿大 IEPL [01] [Air],🇨🇦 加拿大 IEPL [02] [Air],🇮🇳 印度 Edge,🇮🇳 印度 IEPL [01] [Air],🇮🇳 印度 IEPL [02] [Air],🇹🇷 土耳其 Edge,🇹🇷 土耳其 IEPL [01] [Air],🇹🇷 土耳其 IEPL [02] [Air],🇧🇷 巴西 Edge,🇧🇷 巴西 IEPL [01] [Air],🇧🇷 巴西 IEPL [02] [Air],🇩🇪 德国 Edge,🇩🇪 德国 IEPL [01] [Air],🇩🇪 德国 IEPL [02] [Air],🇫🇷 法国 Edge,🇫🇷 法国 IEPL [01] [Air],🇫🇷 法国 IEPL [02] [Air],🇹🇭 泰国 Edge,🇹🇭 泰国 IEPL [01] [Air],🇹🇭 泰国 IEPL [02] [Air],🇦🇺 澳大利亚 Edge,🇦🇺 澳大利亚 IEPL [01] [Air],🇦🇺 澳大利亚 IEPL [02] [Air],🇬🇧 英国 Edge [01],🇬🇧 英国 Edge [02],🇬🇧 英国 IEPL [01] [Air],🇬🇧 英国 IEPL [02] [Air],🇵🇭 菲律宾 Edge,🇵🇭 菲律宾 IEPL [01] [Air],🇵🇭 菲律宾 IEPL [02] [Air],🇦🇷 阿根廷 Edge,🇦🇷 阿根廷 IEPL [01] [Air],🇦🇷 阿根廷 IEPL [02] [Air],url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
+
+[Rule]
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list,🎯 全球直连,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list,🎯 全球直连,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list,🛑 广告拦截,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list,🍃 应用净化,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list,📢 谷歌FCM,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list,🎯 全球直连,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list,🎯 全球直连,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/OneDrive.list,Ⓜ️ 微软云盘,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list,Ⓜ️ 微软服务,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list,🍎 苹果服务,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list,📲 电报消息,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list,💬 OpenAi,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetEaseMusic.list,🎶 网易音乐,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Epic.list,🎮 游戏平台,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Origin.list,🎮 游戏平台,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Sony.list,🎮 游戏平台,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list,🎮 游戏平台,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Nintendo.list,🎮 游戏平台,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list,📹 油管视频,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list,🎥 奈飞视频,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bahamut.list,📺 巴哈姆特,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/BilibiliHMT.list,📺 哔哩哔哩,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list,📺 哔哩哔哩,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list,🌏 国内媒体,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list,🌍 国外媒体,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list,🚀 Nexitally,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list,🎯 全球直连,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list,🎯 全球直连,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list,🎯 全球直连,update-interval=86400
+GEOIP,CN,🎯 全球直连
+FINAL,🐟 漏网之鱼
+RULE-SET,https://api.nexconvert.com/getruleset?type=1&url=cnVsZXMvQmFuUmViZWwubGlzdA,🛑 广告拦截,update-interval=86400
