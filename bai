@@ -4,7 +4,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 US NTT IX, server: 47.112.208.59, port: 1008, type: ss, cipher: 2022-blake3-aes-256-gcm-auth, password: BFCdJJNTJyuextxcrQc8J0myGU06jdAAgxWwHFoO0vE=:+ownJJcZUAvyhs05vO8rxh3fY1vPY+8E1GU8rab8qWQ=}
+  - {name: 🇺🇸 US NTT IX, server: 47.112.208.59, port: 1008, type: ss, cipher: aes-256-gcm-auth, password: BFCdJJNTJyuextxcrQc8J0myGU06jdAAgxWwHFoO0vE=:+ownJJcZUAvyhs05vO8rxh3fY1vPY+8E1GU8rab8qWQ=}
   - {name: 🇺🇸 US ATT IX, server: 8.138.202.51, port: 1008, type: ss, cipher: aes-128-gcm-auth, password: a58448c7-1e6d-4262-a8ec-f49fbe018920}
   - {name: 🇺🇸 美国 Verizon, server: vk39odg.911-gt3-rs.com, port: 11022, type: ss, cipher: aes-128-gcm, password: ce78d315-67f5-463a-9f16-83cf92d29f13}
   - {name: 🇭🇰 HK BAGE IX, server: 47.112.208.59, port: 1009, type: ss, cipher: aes-128-gcm-auth, password: dZQtvVZL2mN7wTniF9ti0UaDEYtOgR98hQsAjIxpSC0=}
