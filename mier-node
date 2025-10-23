@@ -5,8 +5,10 @@
 🇯🇵 日本 北京BGP = ss, 182.92.6.43, 1001, encrypt-method=aes-256-gcm, password="CakYfhU7IWX/vfmKR8AsQjZrQGSIU1uGQb3uTlIVkQc="
 🇭🇰 HKT 北京BGP = ss, 182.92.6.43, 1000, encrypt-method=2022-blake3-aes-256-gcm, password="mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o=:CKD67+bWl3J/GtbvizSKfa3X5gqNM4g83HrH3h8izkA="
 🇭🇰 香港 北京BGP = ss, 182.92.6.43, 1002, encrypt-method=aes-256-gcm, password=mier02
+🇨🇳 台湾 北京BGP = ss, 182.92.6.43, 1007, encrypt-method=2022-blake3-aes-256-gcm, password=mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o=:CKD67+bWl3J/GtbvizSKfa3X5gqNM4g83HrH3h8izkA=, tfo=false
 
 🇺🇸 美国 深港IEPL = ss, 2409:8c54:1020:39:0:3156:2:e7, 57882, encrypt-method=2022-blake3-aes-256-gcm, password="mVoPd+8QqxSeV8I0FverkbzArXOgokgrLtL3/on6L9w=:mGbsHlKGzWMQVK7QplEZtkJvPeFnH8sVLoRDHm2bHJQ="
 🇯🇵 日本 深港IEPL = ss, 2409:8c54:1020:39:0:3156:2:e7, 35639, encrypt-method=aes-256-gcm, password="CakYfhU7IWX/vfmKR8AsQjZrQGSIU1uGQb3uTlIVkQc="
 🇭🇰 HKT 深港IEPL = ss, 2409:8c54:1020:39:0:3156:2:e7, 12730, encrypt-method=2022-blake3-aes-256-gcm, password="mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o=:CKD67+bWl3J/GtbvizSKfa3X5gqNM4g83HrH3h8izkA="
 🇭🇰 香港 深港IEPL = ss, 2409:8c54:1020:39:0:3156:2:e7, 50244, encrypt-method=aes-256-gcm, password=sJsKueFb/tkCSMl4LOchEqFlweEkwcC7Dkl+tZu1KPM=, tfo=false
+🇭🇰 台湾 深港IEPL = ss, [2409:8c54:1020:39:0:3156:2:e7], 15561, encrypt-method=2022-blake3-aes-256-gcm, password=mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o=:CKD67+bWl3J/GtbvizSKfa3X5gqNM4g83HrH3h8izkA=, tfo=false
