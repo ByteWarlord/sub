@@ -1,3 +1,4 @@
+[Proxy]
 🇭🇰 HKT 深圳IX = ss, mier-shenzhen.vip2.qzz.io, 1004, encrypt-method=2022-blake3-aes-256-gcm, password="mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o=:CKD67+bWl3J/GtbvizSKfa3X5gqNM4g83HrH3h8izkA="
 🇭🇰 香港 深圳IX = ss, mier-shenzhen.vip2.qzz.io, 1006, encrypt-method=aes-256-gcm, password=mier02
 
